@@ -1,0 +1,88 @@
+body {
+    background-color: #161616;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+    padding-right: 25px;
+}
+
+.blacktext {
+    color: black;
+}
+
+.whitetext {
+    color: white;
+}
+
+
+.app {
+    border-color: #fff;
+    border-bottom: 2px dashed #fff;
+    background-color: #252530;
+    padding: 20px;
+    padding-bottom: 25px;
+    text-align: left;
+    min-width: 535px;
+}
+
+.versions {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.versions p {
+    border-color: #fff;
+    border-style:dotted;
+    border-width: 2px;
+    background-color: #303030;
+    width: fit-content;
+    height: fit-content;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 12px;
+}
+
+.versions a {
+    text-decoration:none
+}
+
+.downloadbutton {
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 10px;
+    padding-top: 10px;    
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.downloadbutton:hover {
+    background-color:deepskyblue;
+}
+
+.apps {
+    width: 100%;
+    height: 100%;
+    display: grid;
+}
+
+.centercontent {
+    margin:auto;
+    padding:25px;
+    width: 80%;
+    height: 80%;
+}
+
+.centercontent img {
+    display: block;
+    margin:auto;
+}
+
+.demo-card-square.mdl-card {
+    width: 320px;
+    height: 320px;
+}
