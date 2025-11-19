@@ -10,10 +10,11 @@
 
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
-        <link rel="stylesheet" href="mdlite/material.min.css">
-        <script src="mdlite/material.min.js"></script>
+        <link rel="stylesheet" href="material-design-lite/material.min.css">
+        <script src="material-design-lite/material.min.js"></script>
 
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="stylesheets/home/master.css">
+        <link rel="stylesheet" href="stylesheets/home/article-card.css">
 
     </head>
 
@@ -27,7 +28,7 @@
         
             <nav class="mdl-navigation mdl-layout--large-screen-only">
                 <a class="mdl-navigation__link" href="index.html">Home</a>
-                <a class="mdl-navigation__link" href="100-downloads/index.html">Downloads</a>
+                <a class="mdl-navigation__link" href="software-downloads/index.html">Downloads</a>
                 <a class="mdl-navigation__link" href="https://github.com/chs2311">My GitHub</a>
                 <a class="mdl-navigation__link" href="https://chs2311.github.io/SimpleDownloadManager-Website/">Simple Download Manager</a>
             </nav>
@@ -39,19 +40,41 @@
         <span class="mdl-layout-title">Menu</span>
         <nav class="mdl-navigation">
             <a class="mdl-navigation__link blacktext" href="index.html">Home</a>
-            <a class="mdl-navigation__link blacktext" href="100-downloads/index.html">Downloads</a>
+            <a class="mdl-navigation__link blacktext" href="software-downloads/index.html">Downloads</a>
             <a class="mdl-navigation__link blacktext" href="https://github.com/chs2311">My GitHub</a>
             <a class="mdl-navigation__link blacktext" href="https://chs2311.github.io/SimpleDownloadManager-Website/">Simple Download Manager</a>
         </nav>
     </div>
     
-    <span style="color:white;">Pending: Tags + Website, Link/Article for Testing Content</span>
-
     <main class="mdl-layout__content">
-        <!--page-content-->
+        
         <div class="page-content centercontent cards-grid">
+
+           <!-- <article class="card">
+                <div><img class="card-image" src="images/500-cover.jpg"></div>
+                <div class="card-body">
+                    <h2 class="card-title">
+                        iPhone 3G iOS 2.0 Downgrade
+                    </h2>
+                    <p class="card-excerpt">
+                        A tutorial to how to downgrade an iPhone 3G to its release version - iOS 2.0<br>
+                        Tested Method! Works in 2025 with modern setup.
+                    </p>
+                    <div class="card-meta">
+                        <span>November 9th, 2025</span>
+                        <span class="tags">
+                            <a href="/tag/downgrade">Downgrade</a>, 
+                            <a href="/tag/legacy-ios">Legacy iOS</a>
+                        </span>
+                    </div>
+                    <div style="text-align: center;">
+                        <a class="href-button" href="500-iphone-3g-downgrade/index.html">READ MORE</a>
+                    </div>
+                </div>
+            </article>-->
+
             <article class="card">
-                <div><img class="card-image" src="images/400-cover.png"></div>
+                <div><img class="card-image" src="images/article-covers/sb-image-resize-tool.png"></div>
                 <div class="card-body">
                     <h2 class="card-title">
                         SB Image Resizing Tool
@@ -68,13 +91,13 @@
                         </span>
                     </div>
                     <div style="text-align: center;">
-                        <a class="downloadbutton" href="400-sb-image-resizing-tool/index.html">READ MORE</a>
+                        <a class="href-button" href="articles/sb-image-resize-tool.html">READ MORE</a>
                     </div>
                 </div>
             </article>
 
             <article class="card">
-                <div><img class="card-image" src="images/300-cover.png"></div>
+                <div><img class="card-image" src="images/article-covers/nokia-password-reset.png"></div>
                 <div class="card-body">
                     <h2 class="card-title">
                         Nokia Password Reset
@@ -91,13 +114,13 @@
                         </span>
                     </div>
                     <div style="text-align: center;">
-                        <a class="downloadbutton" href="300-nokia-password-reset/index.html">READ MORE</a>
+                        <a class="href-button" href="articles/nokia-password-reset.html">READ MORE</a>
                     </div>
                 </div>
             </article>
 
             <article class="card">
-                <div><img class="card-image" src="images/200-cover.png"></div>
+                <div><img class="card-image" src="images/article-covers/my-game-of-life.png"></div>
                 <div class="card-body">
                     <h2 class="card-title">
                         My Game of LIFE
@@ -114,14 +137,14 @@
                         </span>
                     </div>
                     <div style="text-align: center;">
-                        <a class="downloadbutton" href="200-my-game-of-life/index.html">READ MORE</a>
+                        <a class="href-button" href="articles/my-game-of-life.html">READ MORE</a>
                     </div>
                 </div>
             </article>
         </div>
     </main>
 
-    <footer style="color:white;">
+    <footer style="color:white; text-align:center; width: 100%;">
         (c) 2024-2025 Christian S.
     </footer>
 

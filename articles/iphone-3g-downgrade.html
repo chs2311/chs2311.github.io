@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+
+<html lang="de">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Website by chris</title>
+
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+        <link rel="stylesheet" href="mdlite/material.min.css">
+        <script src="../mdlite/material.min.js"></script>
+
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+
+    <body>
+        
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+        <header class="mdl-layout__header">
+            <div class="mdl-layout__header-row">
+                <span class="mdl-layout-title">Christian's Website: iPhone 3G iOS 2.0 Downgrade</span>
+            <div class="mdl-layout-spacer"></div>
+        
+            <nav class="mdl-navigation mdl-layout--large-screen-only">
+                <a class="mdl-navigation__link" href="../index.html">Home</a>
+                <a class="mdl-navigation__link" href="../100-downloads/index.html">Downloads</a>
+                <a class="mdl-navigation__link" href="https://github.com/chs2311">My GitHub</a>
+                <a class="mdl-navigation__link" href="https://chs2311.github.io/SimpleDownloadManager-Website/">Simple Download Manager</a>
+            </nav>
+    </div>
+
+    </header>
+
+    <div class="mdl-layout__drawer">
+        <span class="mdl-layout-title">Menu</span>
+        <nav class="mdl-navigation">
+            <a class="mdl-navigation__link blacktext" href="../index.html">Home</a>
+            <a class="mdl-navigation__link blacktext" href="../100-downloads/index.html">Downloads</a>
+            <a class="mdl-navigation__link blacktext" href="https://github.com/chs2311">My GitHub</a>
+            <a class="mdl-navigation__link blacktext" href="https://chs2311.github.io/SimpleDownloadManager-Website/">Simple Download Manager</a>
+        </nav>
+    </div>
+    
+    <main class="mdl-layout__content">
+        <div class="page-content centercontent whitetext" style="font-size: 20px;">
+
+            <h1 class="titletext">Downgrade iPhone 3G to iOS 2.0</h1>
+
+            <p class="whitetext" style="font-size: 20px;">
+                This tutorial shows how to downgrade an iPhone 3G from iOS 4.2.1 to iOS 3.1.3 and iOS 2.0
+            </p>
+            
+            <p class="whitetext" style="font-size: 20px;" id="step-1">
+                <h4>1. Requirements: </h4>
+                * iPhone 3G which was originally shipped with iOS 2.0 (otherwise Restore will fail)<br>
+                * Charging Cable with Data Transfer<br>
+                * Linux-PC or Mac<br>
+                * GitHub account for gh authentification <br>
+                * gh installed<br>
+            </p>
+
+            <p class="whitetext" style="font-size: 20px;" id="step-2">
+                <h4>2. Legacy-iOS-Kit</h4>
+                To install Legacy iOS Kit via Terminal, please run:
+                <p class="code">
+                    gh repo clone https://github.com/LukeZGD/Legacy-iOS-Kit.git
+                </p>
+                You need gh installed and authenticated with a GitHub account.
+                <br>
+                If you don't have a GitHub account or gh installed you can download and extract it from below.
+                <br>
+                <br>
+                Open a Terminal and go into the Legacy-iOS-Kit directory. <br>
+                If you installed it via gh, run:
+                <p class="code">
+                    cd Legacy-iOS-Kit
+                </p>
+                Then connect your iPhone to the PC and run
+                <p class="code">
+                    .\restore.sh
+                </p>
+            </p>
+
+            <p class="whitetext" style="font-size: 20px;" id="step-3">
+                <h4>3. iOS 3.1.3 Downgrade</h4>
+                If your iPhone is already on iOS 3.1.3 or below you can skip this step, <br>
+                but make sure that the iOS Installation is working properly.
+                <br><br>
+                In the Legacy-iOS-Kit Menu navigate to
+                <p class="code">
+                    Restore/Downgrade
+                </p>
+                <p class="code">
+                    iOS 3.1.3
+                </p>
+                <p class="code">
+                    Download Target
+                </p>
+                <p class="code">
+                    Start Restore
+                </p>
+
+                Follow the instructions shown in the Terminal.<br>
+                Activate the Jailbreak, Enable the Memory Option for Custom IPSW and Disable Hacktivation<br>
+                Get your Device into DFU/WTF-Mode. Instructions are shown in terminal.<br>
+                Sometimes this might fail, you'll have to retry again.
+            </p>
+
+
+            <p class="whitetext" style="font-size: 20px;">
+
+                Download the resources here: <br><br>
+                <a class="downloadbutton" href="res/300-nokia-pc-suite-setup.exe.html">Download Custom IPSW</a>
+                <a class="downloadbutton" href="res/300-nokia-bb5-utility-setup.exe.html">Download Legacy-iOS-Kit</a>
+                <br>
+                <br>
+                &copy; 2025 Christian Schlei
+
+            </p>
+
+        </div>
+
+    </main>
+
+    </div>
+    
+    </body>
+
+</html>
